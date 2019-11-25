@@ -12693,11 +12693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bodia\\Documents\\gmailstatsclient\\GmailStats\\GmailStatsClient.csproj",
+      "projectUniqueName": "C:\\Users\\Bodia\\Documents\\gmailstatisticclient\\GmailStats\\GmailStatsClient.csproj",
       "projectName": "GmailStatsClient",
-      "projectPath": "C:\\Users\\Bodia\\Documents\\gmailstatsclient\\GmailStats\\GmailStatsClient.csproj",
+      "projectPath": "C:\\Users\\Bodia\\Documents\\gmailstatisticclient\\GmailStats\\GmailStatsClient.csproj",
       "packagesPath": "C:\\Users\\Bodia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bodia\\Documents\\gmailstatsclient\\GmailStats\\obj\\",
+      "outputPath": "C:\\Users\\Bodia\\Documents\\gmailstatisticclient\\GmailStats\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

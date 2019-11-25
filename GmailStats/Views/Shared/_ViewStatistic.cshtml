@@ -1,15 +1,7 @@
-﻿@page
-
-@{
-    ViewData["Title"] = "Chart";
-}
-
-<h2>Chart</h2>
-
-<div class="row">
-    <div class="col-md-4">
-        <button type="button" id="chartbtn" class="btn btn-default">Click to Create Pie Chart</button>
-    </div>
+﻿<div class="content">
+    <input type="date">
+    <input type="date">
+    <button type="button" id="chartbtn" class="btn btn-default">GetStats</button>
 </div>
 <div class="row">
     <div class="col-md-12">
@@ -19,7 +11,7 @@
 
 
 @section scripts
-{ 
+    {
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script>
     $(document)
@@ -83,4 +75,4 @@
                 });
         }
     </script>
-    }
+}

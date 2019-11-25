@@ -31,7 +31,7 @@ namespace GmailStatsClient.Controllers
                 new MailsData() {Part = PartOfDay.Evening, Amount = 10},
             };
 
-            var dataforchart = data.Select(x => new { Part = x.Part, Amount = x.Amount });
+            var dataforchart = data.Select(x => new { x.Part,x.Amount });
 
             return Json(dataforchart);
         }

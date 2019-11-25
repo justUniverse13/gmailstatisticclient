@@ -3920,6 +3920,7 @@ Copyright (c) 2015 Daniel Eden
     }
     .footer {
         height: 60px;
+        position:fixed;
     }
     .footer .footer-menu {
         float: left;

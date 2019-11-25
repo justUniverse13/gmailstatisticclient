@@ -38,33 +38,30 @@
                         Gmail Stats Client
                     </a>
                 </div>
+                <ul class="nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="dashboard.html">
+                            <i class="nc-icon nc-chart-pie-35"></i>
+                            <p>Dashboard</p>
+                        </a>
+                    </li>
+                </ul>
             </div>
 
         </div>
-        
+
         <div class="main-panel">
             <partial name="_LoginPartial" />
-            <div class="content">
-                <input type="date">
-                <input type="date">
-                <input type="button" value="GetStats" id="button">
-                <div class="row">
-                    <div class="col-md-4">
-                        <button type="button" id="chartbtn" class="btn btn-default">Click to Create Pie Chart</button>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div id="chartArea"></div>
-                    </div>
-                </div>
+           
+        @RenderBody()
+       
 
 
-                @RenderBody()
-                @*<footer class="footer">
+
+
+        @*<footer class="footer">
             <div class="container-fluid">
                 <nav>
-
                     <p class="copyright text-center">
                         ©
                         <script>
@@ -75,7 +72,7 @@
                 </nav>
             </div>
         </footer>*@
-            </div>
+    </div>
         </div>
         @RenderSection("Scripts", required: false)
   
