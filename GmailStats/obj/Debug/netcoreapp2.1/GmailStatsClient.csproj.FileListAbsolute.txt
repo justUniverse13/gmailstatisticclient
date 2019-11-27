@@ -181,11 +181,6 @@ C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\obj\Debug\netcoreapp2.1
 C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
 C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
 C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
-C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
-C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\obj\Debug\netcoreapp2.1\Razor\Views\Home\Chart.g.cshtml.cs
-C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
-C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
-C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
 C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
 C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
 C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
@@ -207,3 +202,5 @@ C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\bin\Debug\netcoreapp2.1
 C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\obj\Debug\netcoreapp2.1\GmailStatsClient.Views.pdb
 C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\obj\Debug\netcoreapp2.1\GmailStatsClient.csproj.CopyComplete
 C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ViewStatistic.g.cshtml.cs
+C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\obj\Debug\netcoreapp2.1\Razor\Views\Home\AllStats.g.cshtml.cs
+C:\Users\Bodia\Documents\gmailstatisticclient\GmailStats\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs

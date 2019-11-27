@@ -1,78 +1,10 @@
 ﻿<div class="content">
     <input type="date">
     <input type="date">
-    <button type="button" id="chartbtn" class="btn btn-default">GetStats</button>
-</div>
-<div class="row">
-    <div class="col-md-12">
-        <div id="chartArea"></div>
-    </div>
+        <button class="btn btn-info" type="button" 
+
+                onclick="location.href='@Url.Action("AllStats", "Home")'">GetStats</button>
 </div>
 
 
-@section scripts
-    {
-    <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script>
-    $(document)
-        .ready(function () {
 
-            $('#chartbtn')
-                .click(function () {
-                    $.ajax({
-                        type: "GET",
-
-                        url: '@Url.Action("GetChartData")',
-
-                        dataType: "json",
-                        success: function (data) {
-                            var series = [
-                                {
-                                    type: 'pie',
-                                    name: '',
-                                    data: data
-                                }
-                            ];
-
-
-                            createChart("#chartArea", "Simple PIE", series)
-                        }
-
-                    });
-                });
-        });
-
-        function createChart(chartcontainer, title, series) {
-
-            $(chartcontainer)
-                .highcharts({
-                    chart: {
-                        type: 'pie',
-                    },
-                    credits: {
-                        enabled: false,
-                    },
-                    exporting: {
-                        enabled: false,
-                    },
-                    plotOptions: {
-                        pie: {
-                            allowPointSelect: true,
-                            cursor: 'pointer',
-                            dataLabels: {
-                                enabled: true,
-                                format: '<b>{point.name}</b>: {point.percentage:lf} %',
-                                style: {
-                                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black',
-                                },
-                            }
-                        }
-                    },
-                    series: series,
-                    title: {
-                        text: title
-                    }
-                });
-        }
-    </script>
-}

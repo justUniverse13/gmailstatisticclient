@@ -79,12 +79,12 @@ using Microsoft.AspNetCore.Identity;
 #line default
 #line hidden
             BeginContext(181, 578, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d4e162670f8f42dfbee030dadeae8fa1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5dc9a72526f9409eaf3f35f7ce96a431", async() => {
                 BeginContext(355, 82, true);
                 WriteLiteral("\r\n    <ul class=\"nav navbar-nav navbar-toggler-right\">\r\n        <li>\r\n            ");
                 EndContext();
                 BeginContext(437, 112, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2a18b21a12a043d9aeab250e7e5d5457", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66d121ffa29e4af08577268d2133a004", async() => {
                     BeginContext(508, 6, true);
                     WriteLiteral("Hello ");
                     EndContext();
@@ -119,7 +119,7 @@ using Microsoft.AspNetCore.Identity;
                 WriteLiteral("\r\n        </li>\r\n\r\n        <li>\r\n            <button type=\"submit\" class=\"btn btn-link navbar-btn navbar-link\">Logout</button>\r\n        </li>\r\n    </ul>\r\n\r\n\r\n    \r\n    ");
                 EndContext();
                 BeginContext(717, 33, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "988f019e20ce416a9464217b12314f2d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f95c5c9bfa9b42baa566a8095bdddaa5", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -187,7 +187,7 @@ else
             WriteLiteral("    <ul class=\"nav navbar-nav navbar-toggler-right\">\r\n        <li>");
             EndContext();
             BeginContext(841, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7149b452fa4745a68f7e18dd1b4c76de", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bcbaf39744d64bffa003bc91edc04b02", async() => {
                 BeginContext(890, 5, true);
                 WriteLiteral("Login");
                 EndContext();

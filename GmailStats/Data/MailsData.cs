@@ -7,7 +7,7 @@ namespace GmailStatsClient.Data
 {
     public class MailsData
     {
-        public PartOfDay Part { get; set; }
+        public string Part { get; set; }
         public int Amount { get; set; }
     }
 

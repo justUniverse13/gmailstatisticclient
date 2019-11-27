@@ -16,49 +16,18 @@ namespace GmailStatsClient.Controllers
         {
             return View();
         }
-
-        public IActionResult Chart()
+        public IActionResult AllStats()
         {
-            return View();
-        }
+            List<DataPoint> dataPoints = new List<DataPoint>();
 
-        public JsonResult GetChartData()
-        {
-            var data = new List<MailsData>()
-            {
-                new MailsData() {Part = PartOfDay.Afternoon, Amount = 30},
-                new MailsData() {Part = PartOfDay.Morning, Amount = 20},
-                new MailsData() {Part = PartOfDay.Evening, Amount = 10},
-            };
+            dataPoints.Add(new DataPoint("Morning", 50));
+            dataPoints.Add(new DataPoint("Afternoon", 30));
+            dataPoints.Add(new DataPoint("Evening", 20));
+           
 
-            var dataforchart = data.Select(x => new { x.Part,x.Amount });
-
-            return Json(dataforchart);
-        }
-
-        public IActionResult About()
-        {
-            ViewData["Message"] = "Your application description page.";
+            ViewBag.DataPoints = JsonConvert.SerializeObject(dataPoints);
 
             return View();
-        }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
